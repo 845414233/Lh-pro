@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="__ADMIN__/css/font.css">
+<link rel="stylesheet" href="__ADMIN__/css/xadmin.css">
+<script type="text/javascript" src="__ADMIN__/lib/layui/layui.js" charset="utf-8"></script>
+<script type="text/javascript" src="__ADMIN__/js/xadmin.js"></script>
+<body>
+<form action="{:url('question/manage/add')}" method="post" class="form form-horizontal" enctype="multipart/form-data">
+
+    <div class="row cl">
+        <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>选择类目：</label>
+        <div class="formControls col-xs-8 col-sm-9">
+            <select name="cid" lay-verify="required" lay-search="">
+                <option value="">选择分类</option>
+                {volist name="$category_data" id="to" empty=""}
+                <option value="{$to.id}">{$to.level|render}{$to.name}</option>
+                {/volist}
+            </select>
+        </div>
+        <label class="form-label col-xs-4 col-sm-3">*导入数据：</label>
+        <div class="formControls col-xs-8 col-sm-9">
+            <input type="file" name="excel" />
+        </div>
+    </div>
+    <div class="row cl">
+        <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+            <input class="btn btn-primary radius"  type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+        </div>
+    </div>
+</form>
+</body>
+</html>

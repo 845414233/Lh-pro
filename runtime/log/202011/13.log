@@ -1,0 +1,3744 @@
+---------------------------------------------------------------
+[ 2020-11-13T08:45:22+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/index/index
+[运行时间：8.849960s] [吞吐率：0.11req/s] [内存消耗：4,192.71kb] [文件加载：150]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000089s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.169912s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.037659s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.129483s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wwwroot\wap.pro.com\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\wap.pro.com\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001290s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T08:45:27+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1605228318&v=1605228318
+[运行时间：0.236235s] [吞吐率：4.23req/s] [内存消耗：3,103.50kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001453s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000294s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1605228318',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.035439s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\wwwroot\wap.pro.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000692s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T08:45:32+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/category?addtabs=1
+[运行时间：0.694975s] [吞吐率：1.44req/s] [内存消耗：4,000.34kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000073s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002154s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000243s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000977s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wwwroot\wap.pro.com\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\wwwroot\wap.pro.com\public/../application/admin\view\category\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'flagList',
+  6 => 'parentList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000168s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T08:45:34+08:00 ] 127.0.0.1 GET wap.pro.com/favicon.ico
+[运行时间：0.544815s] [吞吐率：1.84req/s] [内存消耗：1,933.71kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001012s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000211s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wap.pro.com/api',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T08:45:34+08:00 ] 127.0.0.1 GET wap.pro.com/favicon.ico
+[运行时间：0.023830s] [吞吐率：41.96req/s] [内存消耗：1,933.74kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001140s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000251s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://wap.pro.com/api',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T08:45:36+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/ajax/lang?callback=define&controllername=category&lang=zh-cn&v=1605228332&v=1605228332
+[运行时间：0.035640s] [吞吐率：28.06req/s] [内存消耗：3,099.02kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001098s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000235s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'category',
+  'lang' => 'zh-cn',
+  'v' => '1605228332',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001682s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\wwwroot\wap.pro.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000150s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T08:45:36+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/category/index?sort=weigh&order=desc&_=1605228335003
+[运行时间：0.092810s] [吞吐率：10.77req/s] [内存消耗：4,002.36kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001030s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000207s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1605228335003',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000976s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wwwroot\wap.pro.com\application\admin\controller\Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000237s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T08:59:39+08:00 ] 127.0.0.1 POST wap.pro.com/api/index?code=66&token=99
+[运行时间：0.118847s] [吞吐率：8.41req/s] [内存消耗：2,198.67kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001557s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000359s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => 'e58ffea3-decf-469d-999b-c392cb74e1ac',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '66',
+  'token' => '99',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001095s ]
+[ info ] [ LOG ] INIT File
+[ error ] [64]Access level to app\api\controller\Index::$token must be public (as in class app\api\controller\Base)[D:\wwwroot\wap.pro.com\application\api\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2020-11-13T08:59:51+08:00 ] 127.0.0.1 POST wap.pro.com/api/index?code=66&token=99
+[运行时间：0.040142s] [吞吐率：24.91req/s] [内存消耗：2,198.70kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001512s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000415s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => 'ec0429a6-eb84-4976-aef7-222a4279934e',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '66',
+  'token' => '99',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001760s ]
+[ info ] [ LOG ] INIT File
+[ error ] [64]Access level to app\api\controller\Index::$token must be public (as in class app\api\controller\Base)[D:\wwwroot\wap.pro.com\application\api\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2020-11-13T09:00:31+08:00 ] 127.0.0.1 GET wap.pro.com/api
+[运行时间：0.026983s] [吞吐率：37.06req/s] [内存消耗：2,200.36kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001124s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000233s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000943s ]
+[ info ] [ LOG ] INIT File
+[ error ] [64]Access level to app\api\controller\Index::$token must be public (as in class app\api\controller\Base)[D:\wwwroot\wap.pro.com\application\api\controller\Index.php:10]
+---------------------------------------------------------------
+[ 2020-11-13T09:00:54+08:00 ] 127.0.0.1 GET wap.pro.com/api
+[运行时间：0.054582s] [吞吐率：18.32req/s] [内存消耗：3,323.71kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001372s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000231s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000996s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\wwwroot\wap.pro.com\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T09:01:13+08:00 ] 127.0.0.1 POST wap.pro.com/api/index?code=66&token=99
+[运行时间：0.062018s] [吞吐率：16.12req/s] [内存消耗：3,321.80kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001133s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000221s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '1385f690-6076-498e-93d6-7be859eef957',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '66',
+  'token' => '99',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001095s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->index[ D:\wwwroot\wap.pro.com\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T10:17:37+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/index?code=66&token=99
+[运行时间：0.213399s] [吞吐率：4.69req/s] [内存消耗：3,270.03kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000073s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002137s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000418s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => 'ffa74b7e-2758-4059-a6ca-f03d38f2176a',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '66',
+  'token' => '99',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002797s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T10:17:50+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/index?code=66&token=99
+[运行时间：0.061478s] [吞吐率：16.27req/s] [内存消耗：3,368.40kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000069s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001674s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000615s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '7b4d2e29-2586-4e12-8cd9-877c8f6f3e72',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '66',
+  'token' => '99',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001942s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->index[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T10:18:12+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/index?code=66&token=99
+[运行时间：0.053033s] [吞吐率：18.86req/s] [内存消耗：3,368.46kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001274s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000293s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => 'e620e7b0-e8b2-49a9-b541-2afc68e34440',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '66',
+  'token' => '99',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001126s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->index[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T10:24:35+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/index?code=66&token=99
+[运行时间：0.100962s] [吞吐率：9.90req/s] [内存消耗：3,368.59kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001742s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000484s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '53cc9fd5-1c00-4b44-b558-64de7b81b589',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '66',
+  'token' => '99',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001164s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->index[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T10:44:42+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/user_info?code=666&token=999
+[运行时间：0.051936s] [吞吐率：19.25req/s] [内存消耗：3,373.59kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001480s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000341s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => 'd31278d7-3983-411e-833b-44662e5451c2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '666',
+  'token' => '999',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001344s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T11:38:06+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/user_info?code=666&token=999
+[运行时间：0.069114s] [吞吐率：14.47req/s] [内存消耗：3,374.94kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000074s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002629s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000454s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '8d5bc6c3-47e1-4bcf-b9a1-2acbda4aba36',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '666',
+  'token' => '999',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002610s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T11:38:18+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=666&token=999
+[运行时间：0.054073s] [吞吐率：18.49req/s] [内存消耗：3,272.27kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000060s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001615s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000384s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => 'a3e4f43e-f08f-4e02-9244-42deec1fb1a5',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '666',
+  'token' => '999',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001783s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T11:39:10+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=666&token=999
+[运行时间：0.035523s] [吞吐率：28.15req/s] [内存消耗：3,270.55kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001944s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000229s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => 'a73439ea-d9d3-45dd-b32e-0fcffef4f3ae',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '666',
+  'token' => '999',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000938s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T11:39:36+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=666&token=999
+[运行时间：0.054983s] [吞吐率：18.19req/s] [内存消耗：3,433.82kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001555s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000301s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '067c8856-05d2-49c1-9027-d17f7abe7bc5',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '666',
+  'token' => '999',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001184s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to a member function getError() on boolean[D:\wwwroot\wap.pro.com\application\api\controller\User.php:58]
+---------------------------------------------------------------
+[ 2020-11-13T11:42:44+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=666&token=999
+[运行时间：0.071302s] [吞吐率：14.02req/s] [内存消耗：3,428.73kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001620s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000346s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => 'bf80dfe0-df09-4015-8193-8d68abb11066',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '666',
+  'token' => '999',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001073s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to a member function getError() on boolean[D:\wwwroot\wap.pro.com\application\api\controller\User.php:59]
+---------------------------------------------------------------
+[ 2020-11-13T11:45:00+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=666&token=999
+[运行时间：0.048794s] [吞吐率：20.49req/s] [内存消耗：3,267.13kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002035s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000503s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '8a975fcc-4bfb-4f7f-8a9b-a841e3703d74',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '666',
+  'token' => '999',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001521s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T11:45:41+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=666&token=999
+[运行时间：0.042596s] [吞吐率：23.48req/s] [内存消耗：3,269.09kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001433s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000329s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => 'ef87e569-aeb8-4e36-83d2-cb7b55c8bdc7',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '666',
+  'token' => '999',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001055s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T11:46:09+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=666&token=999
+[运行时间：0.035369s] [吞吐率：28.27req/s] [内存消耗：3,267.13kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001180s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000349s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '73c03d69-f2a7-4aa0-859e-fc9dd0007366',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '666',
+  'token' => '999',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001294s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T11:46:36+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=666&token=999
+[运行时间：0.039062s] [吞吐率：25.60req/s] [内存消耗：3,428.42kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001174s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000250s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '5c379713-db8e-41ec-ad1f-74c12be1bafa',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '666',
+  'token' => '999',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000951s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to a member function getError() on boolean[D:\wwwroot\wap.pro.com\application\api\controller\User.php:62]
+---------------------------------------------------------------
+[ 2020-11-13T11:49:24+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=666&token=999
+[运行时间：0.041816s] [吞吐率：23.91req/s] [内存消耗：3,266.69kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001494s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000343s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '7b27abac-cfc7-4736-8fa2-65c57e242365',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '666',
+  'token' => '999',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001421s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T11:58:46+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=666&token=999
+[运行时间：0.044583s] [吞吐率：22.43req/s] [内存消耗：3,428.37kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001480s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000368s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '4af2a609-8b17-469e-afe7-1c5ed9b922f3',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '666',
+  'token' => '999',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001389s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to a member function getError() on boolean[D:\wwwroot\wap.pro.com\application\api\controller\User.php:62]
+---------------------------------------------------------------
+[ 2020-11-13T12:01:10+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=666&token=999
+[运行时间：0.046234s] [吞吐率：21.63req/s] [内存消耗：3,428.37kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001430s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000335s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '30eba662-2847-4a4e-81f5-51d41ca21670',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '666',
+  'token' => '999',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001066s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to a member function getError() on boolean[D:\wwwroot\wap.pro.com\application\api\controller\User.php:62]
+---------------------------------------------------------------
+[ 2020-11-13T12:01:58+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=666&token=999
+[运行时间：0.048574s] [吞吐率：20.59req/s] [内存消耗：3,265.65kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001927s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000389s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '810752f1-8902-4152-8f69-2d8d8aa474c0',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '666',
+  'token' => '999',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003492s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T12:03:15+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=888&token=999&real_name=
+[运行时间：0.042594s] [吞吐率：23.48req/s] [内存消耗：3,265.70kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001469s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000337s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => 'acb9a2da-ad1c-4e09-ade9-156890f0bb9f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '888',
+  'token' => '999',
+  'real_name' => '',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001112s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T12:03:27+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=888&token=999&real_name=
+[运行时间：0.033571s] [吞吐率：29.79req/s] [内存消耗：3,265.70kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001149s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000249s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => 'f136eef4-a868-4eb5-90f4-c7efa8baaaab',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '888',
+  'token' => '999',
+  'real_name' => '',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000915s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T12:03:40+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=888&token=999&real_name=
+[运行时间：0.040173s] [吞吐率：24.89req/s] [内存消耗：3,428.41kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001192s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000265s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '29353489-2a3c-48c9-a06e-6c6e46f3842c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '888',
+  'token' => '999',
+  'real_name' => '',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001047s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to a member function getError() on boolean[D:\wwwroot\wap.pro.com\application\api\controller\User.php:62]
+---------------------------------------------------------------
+[ 2020-11-13T13:06:53+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=888&token=999&real_name=
+[运行时间：0.059582s] [吞吐率：16.78req/s] [内存消耗：3,432.80kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000087s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002117s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000415s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => 'de13bef9-dfcf-4580-ad30-e1fdad3e35ac',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '888',
+  'token' => '999',
+  'real_name' => '',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001558s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]array_merge(): Argument #2 is not an array[D:\wwwroot\wap.pro.com\thinkphp\library\think\Validate.php:116]
+---------------------------------------------------------------
+[ 2020-11-13T13:07:26+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=888&token=999&real_name=
+[运行时间：0.045477s] [吞吐率：21.99req/s] [内存消耗：3,269.30kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001583s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000658s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => 'e50ead42-7336-4e4a-8fe4-7e11e54236a1',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '888',
+  'token' => '999',
+  'real_name' => '',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001367s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T13:09:17+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=888&token=999&real_name=
+[运行时间：0.041167s] [吞吐率：24.29req/s] [内存消耗：3,269.30kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001447s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000374s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '6885628f-57cd-47f7-a54a-cd2c7b7ffff6',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '888',
+  'token' => '999',
+  'real_name' => '',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001596s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T13:11:10+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=888&token=999&real_name=
+[运行时间：0.046495s] [吞吐率：21.51req/s] [内存消耗：3,430.82kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001626s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000358s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '8ea30505-072b-415c-ba6f-007a074cd050',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '888',
+  'token' => '999',
+  'real_name' => '',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001523s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to a member function getError() on array[D:\wwwroot\wap.pro.com\application\api\controller\User.php:58]
+---------------------------------------------------------------
+[ 2020-11-13T13:12:01+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/update_user_info?code=888&token=999&real_name=
+[运行时间：0.057939s] [吞吐率：17.26req/s] [内存消耗：3,309.77kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001471s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000351s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'update_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '9c354eeb-6b36-4376-8487-b1d7c7d16876',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '888',
+  'token' => '999',
+  'real_name' => '',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001830s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\User->update_user_info[ D:\wwwroot\wap.pro.com\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:18:09+08:00 ] 127.0.0.1 POST wap.pro.com/api/Video/index
+[运行时间：0.049992s] [吞吐率：20.00req/s] [内存消耗：3,075.60kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000050s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001730s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000370s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '44f764af-e3ba-48ea-942d-68d7e2c85c1d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001329s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Creating default object from empty value[D:\wwwroot\wap.pro.com\application\api\controller\Video.php:24]
+---------------------------------------------------------------
+[ 2020-11-13T14:18:32+08:00 ] 127.0.0.1 POST wap.pro.com/api/Video/index
+[运行时间：0.047356s] [吞吐率：21.12req/s] [内存消耗：2,981.66kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000055s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001443s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000428s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '1db352f8-50d3-47b3-98d2-4af82e0da714',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001713s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:19:02+08:00 ] 127.0.0.1 POST wap.pro.com/api/Video/index
+[运行时间：0.033844s] [吞吐率：29.55req/s] [内存消耗：3,075.03kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001398s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000229s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '835ef4f5-e73b-4584-8745-e1c45fb0be61',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000924s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Creating default object from empty value[D:\wwwroot\wap.pro.com\application\api\controller\Video.php:24]
+---------------------------------------------------------------
+[ 2020-11-13T14:19:18+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.037940s] [吞吐率：26.36req/s] [内存消耗：3,077.08kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001106s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000235s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002651s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Creating default object from empty value[D:\wwwroot\wap.pro.com\application\api\controller\Video.php:24]
+---------------------------------------------------------------
+[ 2020-11-13T14:19:41+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.063889s] [吞吐率：15.65req/s] [内存消耗：3,208.35kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001058s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000222s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000939s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.cid' in 'on clause'[D:\wwwroot\wap.pro.com\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-11-13T14:19:53+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.039186s] [吞吐率：25.52req/s] [内存消耗：3,134.97kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001375s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000243s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000953s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:21:23+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.060253s] [吞吐率：16.60req/s] [内存消耗：3,175.66kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002167s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000373s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001059s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:22:37+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.054899s] [吞吐率：18.22req/s] [内存消耗：3,135.18kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001512s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000379s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001062s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:23:06+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.051679s] [吞吐率：19.35req/s] [内存消耗：3,298.29kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001731s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000536s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000974s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: data[D:\wwwroot\wap.pro.com\thinkphp\library\think\Collection.php:376]
+---------------------------------------------------------------
+[ 2020-11-13T14:23:22+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.038712s] [吞吐率：25.83req/s] [内存消耗：3,135.42kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001092s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000225s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001305s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:23:45+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.051971s] [吞吐率：19.24req/s] [内存消耗：3,298.29kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001605s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000367s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001136s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[D:\wwwroot\wap.pro.com\thinkphp\library\think\Collection.php:376]
+---------------------------------------------------------------
+[ 2020-11-13T14:24:45+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.042114s] [吞吐率：23.75req/s] [内存消耗：3,075.90kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001517s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000346s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001048s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->toArray[D:\wwwroot\wap.pro.com\thinkphp\library\think\db\Query.php:103]
+---------------------------------------------------------------
+[ 2020-11-13T14:26:00+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.048429s] [吞吐率：20.65req/s] [内存消耗：3,135.26kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001519s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000324s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001350s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:28:47+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.047266s] [吞吐率：21.16req/s] [内存消耗：3,135.26kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000137s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001591s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000366s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001090s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:28:48+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.058045s] [吞吐率：17.23req/s] [内存消耗：3,135.26kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001854s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000396s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001142s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:29:00+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.044203s] [吞吐率：22.62req/s] [内存消耗：3,135.26kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001436s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000247s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000971s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:29:22+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/question/video/index?addtabs=1
+[运行时间：0.239995s] [吞吐率：4.17req/s] [内存消耗：4,080.17kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001243s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000238s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'question.video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000955s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\question\Video->index[ D:\wwwroot\wap.pro.com\application\admin\controller\question\Video.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000347s ]
+[ info ] [ VIEW ] D:\wwwroot\wap.pro.com\public/../application/admin\view\question\video\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:29:22+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/ajax/lang?callback=define&controllername=question.video&lang=zh-cn&v=1605248962&v=1605248962
+[运行时间：0.040574s] [吞吐率：24.65req/s] [内存消耗：3,096.51kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001389s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000297s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'question.video',
+  'lang' => 'zh-cn',
+  'v' => '1605248962',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001574s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\wwwroot\wap.pro.com\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000245s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:29:23+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/question/video/add
+[运行时间：0.086452s] [吞吐率：11.57req/s] [内存消耗：3,958.79kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001148s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000232s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'question.video',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000940s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\question\Video->add[ D:\wwwroot\wap.pro.com\application\admin\controller\question\Video.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000153s ]
+[ info ] [ VIEW ] D:\wwwroot\wap.pro.com\public/../application/admin\view\question\video\add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'category_data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:29:23+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/ajax/lang?callback=define&controllername=question.video&lang=zh-cn&v=1605248963&v=1605248963
+[运行时间：0.034499s] [吞吐率：28.99req/s] [内存消耗：3,096.51kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001084s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000221s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'question.video',
+  'lang' => 'zh-cn',
+  'v' => '1605248963',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002329s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\wwwroot\wap.pro.com\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000172s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:29:42+08:00 ] 127.0.0.1 POST wap.pro.com/admin.php/upload/upload_file?name=video
+[运行时间：0.310816s] [吞吐率：3.22req/s] [内存消耗：3,839.22kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001134s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000224s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'upload',
+    2 => 'upload_file',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://wap.pro.com',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4j2wisg4ct3EiVAd',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '1773631',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'video',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000908s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Upload->upload_file[ D:\wwwroot\wap.pro.com\application\admin\controller\Upload.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.178414s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:29:45+08:00 ] 127.0.0.1 POST wap.pro.com/admin.php/question/video/add
+[运行时间：0.241562s] [吞吐率：4.14req/s] [内存消耗：3,890.61kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001197s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000409s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'question.video',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'null',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '144',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '16',
+  'title' => 'nhiniinni',
+  'video_time' => '1652121',
+  'is_free' => '0',
+  'price' => '5',
+  'file' => '',
+  'video_src' => '/uploads/video/1605248982wx_camera_1601696019492.mp4',
+  'is_show' => '1',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000975s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\question\Video->add[ D:\wwwroot\wap.pro.com\application\admin\controller\question\Video.php ]
+[ info ] [ VIEW ] D:\wwwroot\wap.pro.com\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'code',
+  6 => 'msg',
+  7 => 'data',
+  8 => 'url',
+  9 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.058299s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:29:48+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.047180s] [吞吐率：21.20req/s] [内存消耗：3,135.94kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001100s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000227s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001148s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:30:09+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.110990s] [吞吐率：9.01req/s] [内存消耗：3,136.10kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001105s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000233s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000937s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:31:00+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.057674s] [吞吐率：17.34req/s] [内存消耗：3,134.81kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001530s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000368s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001057s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:31:30+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.056926s] [吞吐率：17.57req/s] [内存消耗：3,134.81kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001847s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000352s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001029s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:33:43+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.092028s] [吞吐率：10.87req/s] [内存消耗：3,177.02kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001446s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000344s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001055s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:45:49+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/index
+[运行时间：0.046683s] [吞吐率：21.42req/s] [内存消耗：3,179.66kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000128s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001721s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000354s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001111s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->index[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:45:58+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/show_video
+[运行时间：0.043427s] [吞吐率：23.03req/s] [内存消耗：3,078.27kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001407s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000337s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'show_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001074s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->show_video[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\api\controller\Cache' not found[D:\wwwroot\wap.pro.com\application\api\controller\Video.php:40]
+---------------------------------------------------------------
+[ 2020-11-13T14:46:15+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/show_video
+[运行时间：0.067860s] [吞吐率：14.74req/s] [内存消耗：3,058.41kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001108s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000231s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'show_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000927s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->show_video[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:46:39+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/show_video
+[运行时间：0.029133s] [吞吐率：34.33req/s] [内存消耗：2,987.50kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001276s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000230s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'show_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000942s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->show_video[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:47:14+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/question/video/index?ref=addtabs
+[运行时间：0.167757s] [吞吐率：5.96req/s] [内存消耗：3,863.94kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001087s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000241s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'question.video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001430s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000238s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:47:14+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/index/index
+[运行时间：0.087944s] [吞吐率：11.37req/s] [内存消耗：4,194.64kb] [文件加载：150]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001166s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000227s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000930s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wwwroot\wap.pro.com\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\wap.pro.com\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000227s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:47:14+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/question/video/index?addtabs=1
+[运行时间：0.076803s] [吞吐率：13.02req/s] [内存消耗：4,081.58kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002587s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000315s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'question.video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001098s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\question\Video->index[ D:\wwwroot\wap.pro.com\application\admin\controller\question\Video.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000184s ]
+[ info ] [ VIEW ] D:\wwwroot\wap.pro.com\public/../application/admin\view\question\video\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:47:14+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1605250034&v=1605250034
+[运行时间：0.042649s] [吞吐率：23.45req/s] [内存消耗：3,103.55kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000067s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001687s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000259s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1605250034',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002344s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\wwwroot\wap.pro.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000193s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:47:14+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/ajax/lang?callback=define&controllername=question.video&lang=zh-cn&v=1605250034&v=1605250034
+[运行时间：0.037370s] [吞吐率：26.76req/s] [内存消耗：3,096.51kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001210s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000236s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'question.video',
+  'lang' => 'zh-cn',
+  'v' => '1605250034',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001364s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\wwwroot\wap.pro.com\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000150s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:47:15+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/category?addtabs=1
+[运行时间：0.074531s] [吞吐率：13.42req/s] [内存消耗：4,000.39kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001179s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000249s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001004s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wwwroot\wap.pro.com\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\wwwroot\wap.pro.com\public/../application/admin\view\category\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'flagList',
+  6 => 'parentList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000151s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:47:15+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/ajax/lang?callback=define&controllername=category&lang=zh-cn&v=1605250034&v=1605250034
+[运行时间：0.036595s] [吞吐率：27.33req/s] [内存消耗：3,099.07kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001108s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000224s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'category',
+  'lang' => 'zh-cn',
+  'v' => '1605250034',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002625s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\wwwroot\wap.pro.com\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000147s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:47:15+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/category/index?sort=weigh&order=desc&_=1605250035055
+[运行时间：0.066108s] [吞吐率：15.13req/s] [内存消耗：4,002.41kb] [文件加载：142]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001764s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000243s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1605250035055',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001007s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wwwroot\wap.pro.com\application\admin\controller\Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000151s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:47:16+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/question/video/edit?id=5
+[运行时间：0.116353s] [吞吐率：8.59req/s] [内存消耗：4,136.65kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000102s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001329s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000239s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'question.video',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000992s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\question\Video->edit[ D:\wwwroot\wap.pro.com\application\admin\controller\question\Video.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000172s ]
+[ info ] [ VIEW ] D:\wwwroot\wap.pro.com\public/../application/admin\view\question\video\edit.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'category_data',
+  6 => 'video_data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T14:47:16+08:00 ] 127.0.0.1 GET wap.pro.com/admin.php/ajax/lang?callback=define&controllername=question.video&lang=zh-cn&v=1605250036&v=1605250036
+[运行时间：0.042218s] [吞吐率：23.69req/s] [内存消耗：3,096.51kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001180s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000252s ]
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'question.video',
+  'lang' => 'zh-cn',
+  'v' => '1605250036',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001244s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\wwwroot\wap.pro.com\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000145s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T15:14:56+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/show_video
+[运行时间：0.063454s] [吞吐率：15.76req/s] [内存消耗：3,158.69kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001690s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000333s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'show_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001120s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->show_video[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]in_array() expects parameter 2 to be array, null given[D:\wwwroot\wap.pro.com\application\api\controller\Video.php:69]
+---------------------------------------------------------------
+[ 2020-11-13T15:15:46+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/show_video
+[运行时间：0.058904s] [吞吐率：16.98req/s] [内存消耗：3,158.69kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001493s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000328s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'show_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001223s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->show_video[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]in_array() expects parameter 2 to be array, null given[D:\wwwroot\wap.pro.com\application\api\controller\Video.php:69]
+---------------------------------------------------------------
+[ 2020-11-13T15:15:48+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/show_video
+[运行时间：0.063970s] [吞吐率：15.63req/s] [内存消耗：3,158.69kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001100s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000237s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'show_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001465s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->show_video[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]in_array() expects parameter 2 to be array, null given[D:\wwwroot\wap.pro.com\application\api\controller\Video.php:69]
+---------------------------------------------------------------
+[ 2020-11-13T15:16:19+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/show_video
+[运行时间：0.036985s] [吞吐率：27.04req/s] [内存消耗：3,053.69kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001295s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000250s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'show_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001781s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->show_video[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T15:17:25+08:00 ] 127.0.0.1 GET wap.pro.com/api/video/show_video
+[运行时间：0.037470s] [吞吐率：26.69req/s] [内存消耗：3,034.25kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001446s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000345s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'show_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e978a94c1be5bb32299b0e717aefeb38; s237f887e=1a561b5c76ac791f461a0d75f4500435; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'wap.pro.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001356s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->show_video[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T15:18:29+08:00 ] 127.0.0.1 POST wap.pro.com/api/user/show_video
+[运行时间：0.050859s] [吞吐率：19.66req/s] [内存消耗：3,437.30kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001915s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000505s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'show_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '158',
+  'content-type' => 'multipart/form-data; boundary=--------------------------372527395018799330667127',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '4bfe8c68-3f57-49dc-8fc4-3dd54e12f1d2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001612s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T15:18:29+08:00 ] 127.0.0.1 GET wap.pro.com/api/user/show_video
+[运行时间：0.023051s] [吞吐率：43.38req/s] [内存消耗：1,933.27kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001117s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000303s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '158',
+  'content-type' => 'multipart/form-data; boundary=--------------------------372527395018799330667127',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '4bfe8c68-3f57-49dc-8fc4-3dd54e12f1d2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T15:18:43+08:00 ] 127.0.0.1 POST wap.pro.com/api/video/show_video
+[运行时间：0.051707s] [吞吐率：19.34req/s] [内存消耗：3,055.98kb] [文件加载：119]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003168s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000360s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'show_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '158',
+  'content-type' => 'multipart/form-data; boundary=--------------------------775925957867671987816895',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '0a35d9a8-e1a7-4c1b-973a-8be0e696903c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001509s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->show_video[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T15:19:02+08:00 ] 127.0.0.1 POST wap.pro.com/api/video/show_video
+[运行时间：0.118045s] [吞吐率：8.47req/s] [内存消耗：3,146.55kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001328s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000569s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'show_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '158',
+  'content-type' => 'multipart/form-data; boundary=--------------------------717259782100169464887123',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '2848459c-68ae-4e12-9abe-99953bace650',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001869s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->show_video[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T15:20:42+08:00 ] 127.0.0.1 POST wap.pro.com/api/video/show_video
+[运行时间：0.057376s] [吞吐率：17.43req/s] [内存消耗：3,146.63kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001570s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000334s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'show_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '158',
+  'content-type' => 'multipart/form-data; boundary=--------------------------998028891144603507425834',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => 'f9f85382-b57f-4f6a-ad9c-6551caee676c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001031s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->show_video[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T15:22:00+08:00 ] 127.0.0.1 POST wap.pro.com/api/video/show_video
+[运行时间：0.065712s] [吞吐率：15.22req/s] [内存消耗：3,158.62kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001472s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000368s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'show_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '158',
+  'content-type' => 'multipart/form-data; boundary=--------------------------923257338429446636813460',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '62b18bd4-21c9-405c-9891-209f927cb107',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001112s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->show_video[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]in_array() expects parameter 2 to be array, null given[D:\wwwroot\wap.pro.com\application\api\controller\Video.php:72]
+---------------------------------------------------------------
+[ 2020-11-13T15:23:20+08:00 ] 127.0.0.1 POST wap.pro.com/api/video/show_video
+[运行时间：0.068295s] [吞吐率：14.64req/s] [内存消耗：3,108.25kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001479s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000331s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'show_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '158',
+  'content-type' => 'multipart/form-data; boundary=--------------------------993584363151782822818805',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '8bb83438-5e5d-4a93-a53b-2327d64f0afa',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001034s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->show_video[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T15:44:29+08:00 ] 127.0.0.1 POST wap.pro.com/api/video/show_video
+[运行时间：0.057365s] [吞吐率：17.43req/s] [内存消耗：3,111.82kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001492s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000365s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'show_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '158',
+  'content-type' => 'multipart/form-data; boundary=--------------------------857496177182772817638994',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => 'ca0b6ba7-827a-4013-ad05-b8de27f83f9f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001080s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->show_video[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-13T15:45:07+08:00 ] 127.0.0.1 POST wap.pro.com/api/video/show_video?id=5
+[运行时间：0.041837s] [吞吐率：23.90req/s] [内存消耗：3,035.74kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001544s ]
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000351s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'show_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'wap.pro.com',
+  'postman-token' => '628607da-accd-43e9-8c91-6bb48a2bb610',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ LANG ] D:\wwwroot\wap.pro.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001169s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Video->show_video[ D:\wwwroot\wap.pro.com\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File

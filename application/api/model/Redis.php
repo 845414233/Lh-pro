@@ -1,15 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2020/11/12
- * Time: 13:06
- */
-
 namespace app\api\model;
+use think\Model;
 
-
-class Redis
+class Redis extends Model
 {
+    public function _initialize()
+    {
+        $this->redis = new \Redis();
+        $this->redis->connect('127.0.0.1',6379);
+    }
 
 }

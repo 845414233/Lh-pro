@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html class="x-admin-sm">
+
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎页面-X-admin2.2</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+    <link rel="stylesheet" href="__ADMIN__/css/font.css">
+    <link rel="stylesheet" href="__ADMIN__/css/xadmin.css">
+    <script type="text/javascript" src="__ADMIN__/js/jquery.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="__ADMIN__/lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="__ADMIN__/lib/layui/css/layui.css" charset="utf-8"></script>
+    <script type="text/javascript" src="__ADMIN__/js/xadmin.js"></script>
+    <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+    <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row">
+        <form class="layui-form" enctype="multipart/form-data" action="{:url('feedback/feedback/edit')}" method="post">
+            {volist name="data" id="to" empty=""}
+            <div class="layui-form-item" style="width: 500px;">
+               <!-- <label for="phone" class="layui-form-label">
+                    <span class="x-red">*</span>编辑
+                </label>-->
+                <div class="layui-input-inline"  style="width: 500px;">
+                    <textarea id="demo" name="content"  style="display: none;width: 500px;" >{$to.opinion}</textarea>
+                </div>
+                <input type="hidden" name="id" value="{$to.id}">
+            </div>
+   <input type="hidden" name="id" value="{$to.id}">
+            <div class="layui-form-item">
+                <label for="L_repass" class="layui-form-label">
+                </label>
+                <button  class="layui-btn" lay-filter="add" lay-submit="">
+                    回复用户
+                </button>
+            </div>
+            {/volist}
+        </form>
+    </div>
+</div>
+<script>
+
+    layui.use('layedit', function(){
+        var layedit = layui.layedit;
+        layedit.build('demo'); //建立编辑器
+    });
+
+    layui.use(['form', 'layer'],
+        function() {
+            $ = layui.jquery;
+            var form = layui.form,
+                layer = layui.layer;
+            //监听提交
+            form.on('submit(add)',
+                function(data) {
+                var content=$('#demo').val();
+                var id=$('#id').val();
+                  if(content){
+                     $.post({
+                         url:"{:url('feedback/feedback/edit')}",
+                         data:{
+                             content:content,
+                             id:id
+                         },
+                         success:function(data){
+                             layer.msg(data.msg);
+                         }
+                     });
+                  }else{
+                            layer.msg('请填写内容');
+                  }
+                });
+        });
+</script>
+
+</body>
+
+</html>

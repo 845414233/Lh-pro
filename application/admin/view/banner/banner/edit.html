@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class="x-admin-sm">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>欢迎页面-X-admin2.2</title>
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+        <link rel="stylesheet" href="__ADMIN__/css/font.css">
+        <link rel="stylesheet" href="__ADMIN__/css/xadmin.css">
+        <script type="text/javascript" src="__ADMIN__/js/jquery.min.js" charset="utf-8"></script>
+        <script type="text/javascript" src="__ADMIN__/lib/layui/layui.js" charset="utf-8"></script>
+        <script type="text/javascript" src="__ADMIN__/lib/layui/css/layui.css" charset="utf-8"></script>
+        <script type="text/javascript" src="__ADMIN__/js/xadmin.js"></script>
+        <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+        <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    </head>
+    <body>
+        <div class="layui-fluid">
+            <div class="layui-row">
+                <form class="layui-form" enctype="multipart/form-data" action="{:url('banner/banner/edit')}" method="post">
+                    {volist name="data" id="to" empty=""}
+                  <div class="layui-form-item">
+                      <button type="button" class="layui-btn" id="banner" name="banner">上传图片</button>
+                      <div class="layui-upload-list">
+                          <img class="layui-upload-img" id="src" style="width:300px;height: 100px;">
+                          <input type="hidden" name="img_src" id="imgsrc" value="{$to.img_src}">
+                          <input type="hidden" name="is_update" id="is_update" value="0">
+                          <p id="demoText"></p>
+                      </div>
+                  </div>
+
+                  <div class="layui-form-item">
+                      <label for="phone" class="layui-form-label">
+                          <span class="x-red">*</span>url
+                      </label>
+                      <div class="layui-input-inline">
+                          <input type="text" id="url" name="url"  value="{$to.url}" required=""
+                                 autocomplete="off"  class="layui-input" >
+                      </div>
+                      <div class="layui-form-mid layui-word-aux">
+                          <span class="x-red"></span>
+                      </div>
+                  </div>
+
+                  <input type="hidden" name="id" value="{$to.id}">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">是否显示</label>
+                        <div class="layui-input-block">
+                            {if condition="$to.is_show==1"}
+                            <input type="checkbox" checked=""  lay-skin="switch" lay-filter="switchTest" lay-text="ON|OFF">
+                            {else/}
+                            <input type="checkbox"    lay-skin="switch" lay-filter="switchTest" lay-text="ON|OFF">
+                            {/if}
+                            <input type="hidden" name="is_show"  id="is_show"  value="{$to.is_show}">
+                        </div>
+                    </div>
+                    {/volist}
+                  <div class="layui-form-item">
+                      <label for="L_repass" class="layui-form-label">
+                      </label>
+                      <button  class="layui-btn" lay-filter="edit" lay-submit="">
+                          增加
+                      </button>
+                  </div>
+
+              </form>
+            </div>
+        </div>
+        <script>
+
+            layui.use('upload', function() {
+                var $ = layui.jquery
+                    , upload = layui.upload;
+
+                //普通图片上传
+                var uploadInst = upload.render({
+                    elem: '#banner'
+                    , url: '{:url("upload/upload_file",["name"=>"banner"])}' //改成您自己的上传接口
+                    , before: function (obj) {
+                        //预读本地文件示例，不支持ie8
+                        obj.preview(function (index, file, result) {
+                            $('#src').attr('src', result); //图片链接（base64）
+                        });
+                    }
+                    , done: function (res) {
+                        //如果上传失败
+                        if (res.code > 0) {
+                            return layer.msg('上传失败');
+                        }
+                        //上传成功
+                        $('#imgsrc').attr('value',res.data);
+                        $('#is_update').attr('value',1);
+                        return false;
+                    }
+                    , error: function () {
+                        //演示失败状态，并实现重传
+                        var demoText = $('#demoText');
+                        demoText.html('<span style="color: #FF5722;">上传失败</span> <a class="layui-btn layui-btn-xs demo-reload">重试</a>');
+                        demoText.find('.demo-reload').on('click', function () {
+                            uploadInst.upload();
+                        });
+                    }
+                });
+            });
+            layui.use(['form', 'layer'],
+            function() {
+                $ = layui.jquery;
+                var form = layui.form,
+                layer = layui.layer;
+                form.on('switch(switchTest)', function(data){
+                    if(this.checked ){
+                        $('#is_show').attr('value',1);
+                    }else{
+                        $('#is_show').attr('value',0);
+                    }
+                });
+
+                //监听提交
+                form.on('submit(edit)',
+                function(data) {
+                 var imgsrc = $('#imgsrc').val();
+                 var url=$('#url').val();
+                if(imgsrc && url && is_show){
+                }else{
+                    layer.msg('请填写完整');
+                  }
+                });
+            });
+        </script>
+
+    </body>
+
+</html>

@@ -1,15 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2020/11/13
- * Time: 16:14
- */
-
 namespace app\api\model;
-
-
-class Question
+use think\Model;
+use think\Db;
+use think\Cache;
+class Question extends Model
 {
+      public $name="question";
+      public $id;
+      public function _initialize(){
 
+         parent::_initialize();
+      }
+      public function
 }

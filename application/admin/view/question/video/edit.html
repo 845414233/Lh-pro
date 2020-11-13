@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html class="x-admin-sm">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>欢迎页面-X-admin2.2</title>
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+        <link rel="stylesheet" href="__ADMIN__/css/font.css">
+        <link rel="stylesheet" href="__ADMIN__/css/xadmin.css">
+        <script type="text/javascript" src="__ADMIN__/lib/layui/layui.js" charset="utf-8"></script>
+        <script type="text/javascript" src="__ADMIN__/js/xadmin.js"></script>
+        <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+        <!--[if lt IE 9]>
+            <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+            <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="layui-fluid">
+            <div class="layui-row">
+                <form class="layui-form" action="{:url('question/video/edit')}" method="post" id="add">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">选择类目</label>
+                        <div class="layui-input-inline">
+                            <select name="cid"  id="cid" lay-verify="required" lay-search="">
+                                <option value="">直接选择或搜索选择</option>
+                                {volist name="$category_data" id="to" empty=""}
+                                <option value="{$to.id}"
+                                        {if condition="$ko.cid=$to.id"}
+                                        selected="selected"
+                                        {/if}
+                                >{$to.level|render}{$to.name}</option>
+                                {/volist}
+                            </select>
+                        </div>
+                    </div>
+                    {volist name="video_data" id="to"}
+                  <div class="layui-form-item">
+                      <label for="phone" class="layui-form-label">
+                          <span class="x-red"></span>题目
+                      </label>
+                      <div class="layui-input-inline">
+                          <input type="text" id="title" name="title" required="" lay-verify="text"
+                          autocomplete="off" class="layui-input" value="{$to.title}">
+                      </div>
+                  </div>
+
+                  <div class="layui-form-item">
+                      <label for="L_pass" class="layui-form-label">
+                        视频时长
+                      </label>
+                      <div class="layui-input-inline">
+                          <input type="text" id="video_time" name="video_time" required="" lay-verify="text"
+                          autocomplete="off" class="layui-input" value="{$to.video_time}">
+                      </div>
+                      <div class="layui-form-mid layui-word-aux">
+                      以秒为单位
+                      </div>
+                  </div>
+                    <input type="hidden" id="id" name="id" value="{$to.id}">
+                    <div class="layui-form-item">
+                        <label for="phone" class="layui-form-label">
+                            <span class="x-red"></span>是否免费
+                        </label>
+                        <div class="layui-input-inline">
+                            <select name="is_free" id="is_free" lay-verify="required" lay-filter="is_free"   lay-search="" >
+                                {if condition="$to.is_free==1"}
+                                <option value="0" >收费</option>
+                                <option value="1" selected="selected">免费</option>
+                                {else/}
+                                <option value="0" selected="selected">收费</option>
+                                <option value="1">免费</option>
+                                {/if}
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-form-item" id ="p_show" >
+                        <label for="L_pass" class="layui-form-label">
+                            价格
+                        </label>
+                        <div class="layui-input-inline">
+                            <input type="text" id="price" name="price" required="" autocomplete="off" class="layui-input" value="{$to.price}">
+                        </div>
+                    </div>
+                    <div class="layui-form-item"  >
+                        <label for="L_pass" class="layui-form-label">
+                            上传视频
+                        </label>
+                        <div class="layui-input-inline">
+                            <button type="button" class="layui-btn" id="video"><i class="layui-icon"></i>上传视频</button>
+                            <input type="hidden" name="video_src" value="{$to.video_src}" id="video_src">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label for="L_repass" class="layui-form-label">
+                            是否显示
+                        </label>
+                        <div class="layui-input-block">
+                            <select name="is_show" id="is_show" lay-filter="aihao">
+                                {if condition="$to.is_show==1"}
+                                <option value="1" selected="selected">显示在前台</option>
+                                <option value="0">隐藏</option>
+                                {else/}
+                                <option value="1">显示在前台</option>
+                                <option value="0" selected="selected">隐藏</option>
+                                {/if}
+                            </select>
+                        </div>
+                    </div>
+                    {/volist}
+                  <div class="layui-form-item">
+                      <label for="L_repass" class="layui-form-label">
+                      </label>
+                      <button  class="layui-btn" lay-filter="add" lay-submit="">
+                          添加
+                      </button>
+                  </div>
+              </form>
+            </div>
+        </div>
+        <script>
+            layui.use('upload', function(){
+                var $ = layui.jquery
+                    ,upload = layui.upload;
+                upload.render({
+                    elem: '#video'
+                    ,url: '{:url("upload/upload_file",["name"=>"video"])}' //改成您自己的上传接口
+                    ,accept: 'video' //视频
+                    ,done: function(res){
+                        if(res.staus=='succ'){
+                            $('#video_src').val(res.data);
+                            layer.msg('上传成功');
+                        }else{
+                            layer.msg('上传失败');
+                        }
+                     return false;
+                    }
+                });
+            });
+
+            layui.use(['form', 'layer'],
+            function() {
+                $ = layui.jquery;
+                var form = layui.form,
+                layer = layui.layer;
+                form.on('select(is_free)', function(data){
+                   switch (data.value) {
+                       case '0':
+                            $('#p_show').css('display','block');
+                             break;
+                       }
+                       });
+                //监听提交
+                form.on('submit(add)',
+                function(data) {
+                    var cid=$('#cid').val();
+                    var title=$('#title').val();
+                    var video_time=$('#video_time').val();
+                    var is_free=$('#is_free').val();
+                    var price=$('#price').val();
+                    var is_show=$('#is_show').val();
+                    var video_src=$('#video_src').val();
+                    if(!is_show||!is_free||!video_time||!title||!cid||!video_src){
+                          layer.msg('请填写完整数据');
+                          return false;
+                    }
+                    if(is_free!=='1'){
+                       if(!price){
+                           layer.msg('请填写价格');
+                           return false;
+                       }
+                    }
+                 $('#add').submit();
+                    return false;
+                });
+
+            });</script>
+
+    </body>
+
+</html>

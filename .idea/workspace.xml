@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92801fbf-dc98-411a-80ea-0963e8bf5575" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/application/api/controller/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/controller/Question.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/controller/Wx_Restful.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/controller/Wx_Restful.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model/Common.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/model/Common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/model/Question.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model/Redis.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/model/Redis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/model/Video.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/validate/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/validate/User.php" afterDir="false" />
-    </list>
+    <list default="true" id="92801fbf-dc98-411a-80ea-0963e8bf5575" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/api/model/Question.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+            <state relative-caret-position="19">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding>
                 <element signature="e#31#47#0#PHP" expanded="true" />
               </folding>
@@ -406,16 +398,15 @@
       <workItem from="1604969554717" duration="27638000" />
       <workItem from="1605055653154" duration="26586000" />
       <workItem from="1605141730526" duration="28605000" />
-      <workItem from="1605228529315" duration="26726000" />
+      <workItem from="1605228529315" duration="27291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216810000" />
+    <option name="totallyTimeSpent" value="217375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="855" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17550144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -430,7 +421,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32916668" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35277778" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.8486111" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32916668" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -863,8 +854,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/api/model/Question.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        <state relative-caret-position="19">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding>
             <element signature="e#31#47#0#PHP" expanded="true" />
           </folding>
